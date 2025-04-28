@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+header{
+    background-color: #e6e6e6;
+}
+
+/*  *navbar*  */
+.navbar{
+    height: 69px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* *box1* */
+.nav{
+    height: 44px;
+    width: 160px;
+
+}
+
+.logo{
+    background-image: url('flipkart-logo22.png');
+    background-size: contain;
+    width: 160px;
+    height: 44px;
+}
+
+/* *box2* */
+.search{
+    width: 450px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.search-icon{
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgba(108, 106, 101, 0.796);
+    height: 40px;
+    width: 44px;
+    background-color:#e6e6e6 ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+
+}
+
+.search-input{
+    height: 40px;
+    width: 400px;
+    background-color:#e6e6e6 ;
+    color: rgba(108, 106, 101, 0.796);
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;    
+}
+
+/* *box3* */
+.login{
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-id{
+    border: none;
+    margin-left: 5px;
+}
+
+.login:hover{
+    background-color: blue;
+    border-radius:10px ;
+}
+
+/* *box4* */
+.cart{
+    width: 104px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.C{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* *box5* */
+.shop{
+    width: 190px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seller{
+    margin-left: 10px;
+}
+
+/* *box6* */
+.setting{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+/* *panel* */
+.CONTENTSSS{
+    background-color: #e6e6e6;
+}
+
+.panel-body{
+    /* height: 3005px; */
+    /* background-color: #e6e6e6; */
+    display: flex;
+    justify-content: center;
+}
+
+.panel{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    height: 140px;
+    /* width: 60%px; */
+    background-color: #ffffff;
+    width: 98%;
+}
+
+.grocery{
+    background-image: url('grocery.webp');
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.left{
+    color: #333333;
+    /* margin-left: 10px; */
+    border: none;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 10px;
+    background-color: #ffffff;
+   
+
+}
+
+.mobile{
+    background-image: url('mobiles.webp');
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.fashion{
+    background-image: url('fashion.webp');
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.home{
+    background-image: url('home&furnitures.webp');
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.appliances{
+    background-image: url('appliance.webp');
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.travel{
+    background-image: url('travel.webp');
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.beauty{
+    background-image: url('beauty.webp');
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.two-wheeler{
+    background-image: url('twowheeler.webp');
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+/* *panel-pic* */
+.epson-pic{
+    height: 198.4px;
+    /* width: 98%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e6e6e6; */
+    margin-top: 10px;
+
+}
+
+.epson{
+    background-image: url('epson.webp');
+    background-size: cover;
+    height: 198.4px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+}
+
+.A{
+    width: 40px;
+    height: 88px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.C{
+    position: absolute;
+    right: 13.5px;
+    /* background-color: #ffffff; */
+}
+
+.D{
+    width: 40px;
+    height: 88px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* *panel 2* */
+.panel2{
+    margin-top:10px;
+    margin-left: 10px;
+    width: 1100px;
+    /* height: 240; */
+    background-color: #ffffff;
+    /* font-size: 17px; */
+}
+
+.headline{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.head{
+    width: 1000px;
+}
+
+.arrow{
+    font-size: 24px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(29, 29, 197);
+}
+
+.electronics{
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ec{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5%;
+}
+
+.keyword{
+    background-image: url('keyword.webp');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.para{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.powerbank{
+    background-image: url('powwrbank.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.monitor{
+    background-image: url('monitor.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.camera{
+    background-image: url('camera.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.projector{
+    background-image: url('projector.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.E{
+    position: absolute;
+    right: 227.5px;
+    /* top: 560px; */
+}
+
+/* *aeroplane* */
+.I{
+    position: absolute;
+    right: 13.5px;
+    top: 438px;
+}
+
+.aeroplane{
+    height: 350px;
+    width: 205px;   
+}
+
+/* *panel3* */
+.panel3{
+    margin-top:10px;
+    margin-left: 10px;
+    width: 1315px;
+    /* height: 240; */
+    background-color: #ffffff;
+    font-size: 17px;
+}
+
+.head2{
+    width: 1200px;
+}
+
+.stationary{
+    background-image: url('stationary.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.car{
+    background-image: url('remotecontrol.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.toy{
+    background-image: url('soft-toy.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.cycle{
+    background-image: url('gearcycle.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.elec-cyc{
+    background-image: url('electric-cycle.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.gym{
+    background-image: url('gym-esse.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+.Dis{
+    font-weight: 600;
+    margin-left: 20px;
+}    
+
+/* *content* */
+.details{
+    background-color: #f5f5f5;
+    width:100%;
+    padding-bottom: 20px;
+    padding-top: 70px
+}
+
+.stories{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #F5F5F5;
+}
+
+.S{
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-top: 60px; */
+    color: #2e303377;
+    font-weight: 500;
+}
+
+.P{
+    margin-left: 20px;
+    margin-top: 60px;
+    color: #2e303377;
+    font-weight: 500;
+
+}
+
+/* *footer* */
+footer{
+    background-color: rgb(43, 41, 41);
+}
+
+.FOOTTT{
+    height: 400px;
+    width: 100%;
+}
+
+.foot{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-top: 50px; */
+    border-bottom: 0.4px solid rgb(132, 125, 125);
+}
+
+.about{
+    /* margin-left: px; */
+    padding: 40px;
+    height: 200px;
+    width: 116px;
+}
+
+.gr{
+    color: #878787;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.about a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.about a:hover{
+    text-decoration: underline;
+}
+
+.about li{
+    list-style: none;
+}
+
+.right-B{
+    border-right: 0.4px solid rgb(132, 125, 125);
+}
+
+.aabout p{
+    color: white;
+}
+
+.aabout{
+    margin-right: 30px;
+    padding: 40px;
+    height: 200px;
+    width: 267px;
+}
+
+.ggr{
+    color: #878787;
+    /* margin-left: 40px; */
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
